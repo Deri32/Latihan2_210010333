@@ -1,12 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package universitas;
 
 public class mahasiswaBeraksi {
     public static void main(String[] args) {
+        String npm = "210010333";
+        String nama = "Muhammad Arika Deri";
+        String prodi = "Fakultas Teknologi Informatika";
 
+        Mahasiswa mahasiswa = new Mahasiswa(npm, nama, prodi);
+
+        System.out.println("Detail Mahasiswa:");
+        System.out.println(mahasiswa.getDetail());
     }
 }
